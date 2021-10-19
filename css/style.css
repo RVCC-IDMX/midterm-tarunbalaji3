@@ -1,2 +1,24 @@
 /* Journey to the Center of the Earth Practicum */
 /* Tarun Balaji Ravi */
+
+
+/* border, padding, margin and inset box shadow for all elements */
+
+header,nav,main,aside,footer {
+    border: 4px solid #886644;
+    margin: auto;
+    padding: 1.5rem;
+    box-shadow: inset 5px 5px 5px 5px rgba(0,0,0,.5);
+}
+
+/* Added rounded corners to header and footer */
+
+header {
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+}
+
+footer {
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
