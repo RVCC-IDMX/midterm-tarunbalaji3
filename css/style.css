@@ -120,13 +120,13 @@ p:first-of-type:first-line {
 
 /* aside */
 
+
 .submission {
     border: 1px solid black;
     padding: 2rem;
     padding-top: 1rem;
     margin: 1rem;
-    background: white;
-    opacity: 0.85; 
+    background-color: rgba(165,42,42,0.07);
 }
 
 .opinion {
@@ -143,4 +143,27 @@ p:first-of-type:first-line {
 footer {
     font-size: 0.75rem;
     text-align: center;
+}
+
+/* Tablet layout */
+
+@media screen and (min-width: 786px) {
+    aside {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+
+    hr {
+        display: none;
+    }
+
+    aside h2 {
+        grid-column: 1/-1;
+    }
+
+    header h1 {
+        font-size: 50px;
+    }
+
 }
