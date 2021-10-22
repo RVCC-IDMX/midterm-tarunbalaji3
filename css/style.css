@@ -147,7 +147,7 @@ footer {
 
 /* Tablet layout */
 
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
     aside {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
